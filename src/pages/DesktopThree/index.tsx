@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Img, Text } from "components";
 import Header from "components/Header";
@@ -6,27 +6,27 @@ import Footer from "components/Footer";
 
 const DesktopThreePage: React.FC = () => {
   const navigate = useNavigate();
-  const [showModal, setShowModal] = useState(false);
-  const [selectedImage, setSelectedImage] = useState("md:px-5  md:w-full");
+  // const [, setShowModal] = useState(false);
+  // const [selectedImage, setSelectedImage] = useState("md:px-5  md:w-full");
 
-  const openModal = (imageSrc: string) => {
-    setSelectedImage(imageSrc);
-    setShowModal(true);
-  };
+  // const openModal = (imageSrc: string) => {
+  //   setSelectedImage(imageSrc);
+  //   setShowModal(true);
+  // };
 
-  const closeModal = () => {
-    setSelectedImage("md:px-5  md:w-full");
-    setShowModal(false);
-  };
+  // const closeModal = () => {
+  //   setSelectedImage("md:px-5  md:w-full");
+  //   setShowModal(false);
+  // };
 
-  const downloadImage = () => {
-    if (selectedImage) {
-      const link = document.createElement("a");
-      link.href = selectedImage;
-      link.download = "downloaded_image.png";
-      link.click();
-    }
-  };
+  // const downloadImage = () => {
+  //   if (selectedImage) {
+  //     const link = document.createElement("a");
+  //     link.href = selectedImage;
+  //     link.download = "downloaded_image.png";
+  //     link.click();
+  //   }
+  // };
 
   return (
     <>

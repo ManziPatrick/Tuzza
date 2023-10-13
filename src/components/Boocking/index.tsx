@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, Input, SelectBox, Text } from "components";
+import {  Img, Input, SelectBox, Text } from "components";
 
 
 const checkInDateOptionsList = [

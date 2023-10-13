@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Text } from "components";
+
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Img } from "components";
 
