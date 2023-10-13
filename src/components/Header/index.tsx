@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             {isMobile && (
               <>
    <button
-        className="block absolute right-10 z-20"
+        className="block absolute right-1 z-20"
         onClick={toggleMenu}
       >
         {showMenu ? <FaTimes size={24} /> : <FaBars size={24}  />}
@@ -79,19 +79,19 @@ const Header: React.FC<HeaderProps> = (props) => {
             )}
           </div>
           {showMenu && isMobile && (
-            <div className="block  absolute w-1/3 top-30 right-0">
+            <div className="block  absolute w-1/2 top-30 right-0">
             
             <div className="nav linkm z-10  mt-96 relative">
                  
                  <div className="navsiteta  bg-white-A700 h-96 ">
                  <div className="w-auto block">
-                <ul className="flex  flex-col items-center mr-10">
-                  <li className="font-heading mr-9 text-black-900_7f text-black-900_7f-900_7f hover:text-gray-200 text-lg " ><a href="/" style={{ color: 'black' }}> Home</a></li>
-                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 text-lg"><a href="/ leadership" style={{ color: 'black' }}> Leadership</a></li>
-                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 text-lg"><a href="/blogs" style={{ color: 'black' }}>Blogs</a></li>
-                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 text-lg"><a href="/culture" style={{ color: 'black' }}>Culture </a></li>
-                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 text-lg"><a href="#impact" style={{ color: 'black' }}> Impact</a></li>
-                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 text-lg"><a href="#contact" style={{ color: 'black' }}> Contact</a></li>
+                <ul className="flex  flex-col items-center p-10 gap-5  mr-10">
+                  <li className="font-heading mr-9 text-black-900_7f text-center text-black-900_7f-900_7f hover:text-gray-200 md:text-[12px] md:font-bold  md:ml-4 text-lg " ><a href="/" style={{ color: 'black' }}> Home</a></li>
+                  <li className="font-heading mr-9 text-black-900_7f text-center hover:text-gray-200  md:text-[12px] md:font-bold  md:ml-4 text-lg"><a href="/ leadership" style={{ color: 'black' }}> Leadership</a></li>
+                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200  md:text-[12px] md:font-bold  md:ml-4 text-lg"><a href="/blogs" style={{ color: 'black' }}>Blogs</a></li>
+                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 md:text-[12px] md:font-bold  md:ml-4 text-lg"><a href="/culture" style={{ color: 'black' }}>Culture </a></li>
+                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200 md:text-[12px] md:font-bold  md:ml-4 text-lg"><a href="#impact" style={{ color: 'black' }}> Impact</a></li>
+                  <li className="font-heading mr-9 text-black-900_7f hover:text-gray-200  md:text-[12px] md:font-bold  md:ml-4 text-lg"><a href="#contact" style={{ color: 'black' }}> Contact</a></li>
                 </ul>
               </div>
         </div>
