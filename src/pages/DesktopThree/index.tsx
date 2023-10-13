@@ -79,10 +79,10 @@ const DesktopThreePage: React.FC = () => {
           </div>
 
           <Text
-            className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+            className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
             size="txtWorkSansRomanBold40"
           >
-            accommodation
+            Accommodation
           </Text>
           <div className="grid relative grid-cols-4 md:grid-cols-1 gap-3 m-auto w-full">
             
@@ -156,10 +156,10 @@ const DesktopThreePage: React.FC = () => {
                   />
                 </div>
               <Text
-                className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+                className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
                 size="txtWorkSansRomanBold40"
               >
-                conference rooms
+                Conference rooms
               </Text>
                 <div className="grid grid-cols-4 md:grid-cols-1 gap-3 m-auto w-full">
                     <Img
@@ -185,7 +185,7 @@ const DesktopThreePage: React.FC = () => {
                   />
                 </div>
                   <Text
-                    className="mt-[84px] sm:text-4xl md:text-[38px] text-[40px] text-black-900 text-center tracking-[0.80px] uppercase"
+                    className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
                     size="txtWorkSansRomanBold40"
                   >
                     Out View
@@ -239,10 +239,10 @@ const DesktopThreePage: React.FC = () => {
             />
           </div>
           <Text
-            className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+            className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
             size="txtWorkSansRomanBold40"
           >
-            kitchen
+            Cuzine
           </Text>
         
             <div className=" grid grid-cols-4 md:grid-cols-1 gap-3 m-auto w-full">
@@ -298,10 +298,10 @@ const DesktopThreePage: React.FC = () => {
           </div>
           
           <Text
-            className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+            className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
             size="txtWorkSansRomanBold40"
           >
-            bar and restorent
+            Bar and Restorent
           </Text>
           <div className="grid grid-cols-4 md:grid-cols-1 gap-3 m-auto w-full">
             <Img
@@ -328,10 +328,10 @@ const DesktopThreePage: React.FC = () => {
 
                  
                   <Text
-                    className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+                    className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
                     size="txtWorkSansRomanBold40"
                   >
-                    playgrounds  
+                    Playgrounds  
                  
                    
                   </Text>
@@ -411,7 +411,7 @@ const DesktopThreePage: React.FC = () => {
                           />
                           </div>
                           <Text
-                    className="md:ml-[0] sm:text-xl md:text-[28px] text-[40px] text-black-900 text-center tracking-[0.80px] md:lowercase md:tracking-normal sm:text-[12px] uppercase"
+                    className=" mb-7 text-4xl sm:text-[28px]  mt-4 md:mb-0   md:text-lg text-black-900 text-center"
                     size="txtWorkSansRomanBold40"
                   >
                       Garden
